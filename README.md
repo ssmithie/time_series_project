@@ -29,10 +29,10 @@ Also when looking at the yearly trends, other than the obvious dips at quiet tim
 ## Model <a name='model'></a>
 Optimizing for lowest RMSE I chose a SARIMAX model.
 Here you can see the predictions for the first restaurant, which have an RMSE of 1623.71.
-![restaurant_a_prediction](images/prediction.png)
+![restaurant_a_prediction](images/prediction_1.png)
 When looking at the second restaurant, the prediction misses one of the days due to an anomaly of a private event that day.
 I quickly realized that the model would need 'private events' as an exogenous variable.
-![restaurant_b_prediction](images/prediction_1.png)
+![restaurant_b_prediction](images/prediction.png)
 
 ## Conclusions & Further Work <a name='concl'></a>
 - The overall trends show actionable insights for the business
